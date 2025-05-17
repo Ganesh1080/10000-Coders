@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .songs-container {
+            display: flex;
+            justify-content: left;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .song{
+            width: 400px;
+            text-align: left;
+        }
+        .video{
+            width: 200px;
+            text-align: center;
+            height: 300px;
+        }
+        h2{
+             color:aliceblue;
+        }
+    </style>
+</head>
+<body style="background-color:darkslategrey">
+       <div class="songs-container">
+           <div class="song">
+             <h2><span>Jresy - 2019</span></h2>
+                <img src="./assets/Jersey_2019_poster.jpg" alt="Jersy" width="200" height="300">
+           </div>
+            <div class="video">
+                <h1 style="color:aliceblue">Trailer</h1>
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/AjAe_Q1WZ_8?si=NOgaZdnsVQHFBtl-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        
+       </div>
+            <div class="audio">
+                <h3 style="color:aliceblue">Spirit of Jersey</h3>
+                <audio src="./songS/jersey.mp3" controls loop   muted></audio>
+            </div>
+   </body>
+</html>
