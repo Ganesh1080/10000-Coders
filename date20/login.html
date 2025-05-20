@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon"  href="./assets/favicon2.jpg">
+<style>
+    body{
+        background-image: url(./assets/bg\ img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .mainContainer{
+        background-color: rgb(217, 70, 21);
+        margin-top: 600px;
+    }
+    .box{
+        display: inline-block;
+        background-color: rgba(220, 59, 59, 0.936);
+        margin-top: 200px;
+        padding:10px;
+        border-radius: 20px;
+    }
+    .username{
+        padding: 10px;
+    }
+    .usernameInput{
+        padding: 7px;
+    }
+    .submit{
+        width:80px;
+        background-color: rgb(36, 213, 36);
+        border-radius: 10px 0 ;
+        padding: 7px;
+    }
+    .username1{
+        color: white;
+    }
+    h3{
+        color: white;
+    }
+</style>
+</head>
+<body>
+   <div class="container">
+    <center>
+     <div class="box" style="text-align:center;border:2px solid rgb(18, 124, 185)">
+        <h3>Login</h3>
+      <form action="./details.html">
+        <label class="username1" for="UserName">User Name:</label>
+        <input class="usernameInput"type="text" placeholder="Enter User name" id="UserName" required style="border:2px solid rgb(20, 151, 187);border-radius:20px">
+        <br>
+        <br>
+        <label class="username1"  for="Pass">Password:</label>
+        <input class="usernameInput" type="password" id="Pass" placeholder="Enter Password" required style="border:2px solid rgb(20, 151, 187);border-radius:20px">
+        <br><br>
+        <input class="submit" type="submit" value="Login" >
+        <a href="" style="text-decoration:none">&nbsp; remember me..?</a>
+    </form>
+   </div>
+  </center>
+   </div>
+</body>
+</html>

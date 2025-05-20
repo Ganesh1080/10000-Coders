@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+            display:inline-block;
+            background-color: rgb(178, 51, 51);
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 20px;
+            color: white;
+            
+        }
+        .name{
+            border: 1px solid  ;
+            border-radius: 20px;
+            padding: 5px;
+            width: 250px;
+        }
+        .mail{
+             border: 1px solid  ;
+            border-radius: 20px;
+            padding: 5px;
+            width: 250px;
+        }
+        .Pass{
+            border: 1px solid  ;
+            border-radius: 20px;
+            padding: 5px;
+            width: 210px;
+        }
+        .conPass{
+              border: 1px solid  ;
+            border-radius: 20px;
+            padding: 5px;
+            width: 210px;
+        }
+        .submit{
+            background-color: rgb(70, 205, 70);
+            color: aliceblue;
+            border: 1px solid rgb(83, 201, 83);
+            border-radius: 15px;
+            padding: 7px;
+            width: 77px;
+        }
+        body{
+            background-image: url(./assets/mainbg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center>
+            <div class="box">
+                <h3>Sign Up</h3>
+                <form action="./login.html">
+                    <label class="name1" for="name">Name:</label>
+                    <input class="name" type="text" id="name" placeholder="Enter name" required><br><br>
+
+                    <label class="Mail" for="email">Email:</label>
+                    <input class="mail" type="text" id="mail" placeholder="Enter Mail" required>
+                    <br>
+                    <br>
+                    <label class="pass" for="pass">Password:</label>
+                    <input class="Pass" type="password" id="pass" placeholder="Enter Password" required>
+                    <br><br>
+                    <label class="pass" for="pass">confirm pass:</label>
+                    <input class="conPass" type="password" id="pass" placeholder="Enter Password" required>
+                    <br>
+                    <br>
+                    <input type="submit" class="submit" value="Sign Up">
+                </form>
+            </div>
+        </center>
+    </div>
+</body>
+</html>
